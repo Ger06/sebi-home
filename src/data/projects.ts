@@ -18,12 +18,17 @@ export const projects: Project[] = [
     location: 'Buenos Aires, CABA',
     description:
       'Vivienda unifamiliar de diseño moderno y minimalista. Espacios amplios, materiales nobles y una paleta neutra que dialoga con la luz natural.',
-    coverImage:
-      'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=900&q=80',
+    coverImage: '/images/projects/COR4287.webp',
     images: [
-      'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1400&q=80',
-      'https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=1400&q=80',
-      'https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=1400&q=80',
+      '/images/projects/COR4287.webp',
+      '/images/projects/COR4287-1.webp',
+      '/images/projects/COR4287-2.webp',
+      '/images/projects/COR4287-3.webp',
+      '/images/projects/cor4287-4.webp',
+      '/images/projects/cor4287-5.jpeg',
+      '/images/projects/cor4287-6.webp',
+      '/images/projects/cor4287-7.webp',
+      '/images/projects/cor4287-8.webp',
     ],
   },
   {
@@ -34,12 +39,13 @@ export const projects: Project[] = [
     location: 'Buenos Aires, CABA',
     description:
       'Proyecto de inversión inmobiliaria con unidades de alto estándar. Diseño orientado a la eficiencia de planta y calidad de terminaciones.',
-    coverImage:
-      'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=900&q=80',
+    coverImage: '/images/projects/esmeralda-inv.webp',
     images: [
-      'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1400&q=80',
-      'https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=1400&q=80',
-      'https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=1400&q=80',
+      '/images/projects/esmeralda-inv.webp',
+      '/images/projects/esmeralda-inv-1.webp',
+      '/images/projects/esmeralda-inv-2.webp',
+      '/images/projects/esmeralda-inv-3.webp',
+      '/images/projects/esmeralda-inv-4.webp',
     ],
   },
   {
@@ -50,12 +56,12 @@ export const projects: Project[] = [
     location: 'Buenos Aires, CABA',
     description:
       'Remodelación integral de vivienda. Intervención sobre estructura existente con nuevas circulaciones y apertura de espacios de planta baja.',
-    coverImage:
-      'https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=900&q=80',
+    coverImage: '/images/projects/lagos-34.webp',
     images: [
-      'https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=1400&q=80',
-      'https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1400&q=80',
-      'https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=1400&q=80',
+      '/images/projects/lagos-34.webp',
+      '/images/projects/lagos-34-1.webp',
+      '/images/projects/lagos-34-2.webp',
+      '/images/projects/lagos-34-3.webp',
     ],
   },
   {
@@ -66,12 +72,12 @@ export const projects: Project[] = [
     location: 'Buenos Aires, CABA',
     description:
       'Segunda etapa del desarrollo en Cabildo. Unidades en planta alta con terraza privada y vistas abiertas al entorno urbano.',
-    coverImage:
-      'https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=900&q=80',
+    coverImage: '/images/projects/cabildo336II.webp',
     images: [
-      'https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=1400&q=80',
-      'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1400&q=80',
-      'https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=1400&q=80',
+      '/images/projects/cabildo336II.webp',
+      '/images/projects/cabildo336II-1.webp',
+      '/images/projects/cabildo336II-2.webp',
+      '/images/projects/cabildo336II-3.webp',
     ],
   },
   {
@@ -82,12 +88,14 @@ export const projects: Project[] = [
     location: 'Buenos Aires, CABA',
     description:
       'Primera etapa del desarrollo. Planta baja y primer piso con jardín privado, diseño bioclimático y materiales de construcción durables.',
-    coverImage:
-      'https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=900&q=80',
+    coverImage: '/images/projects/cabildo336I.webp',
     images: [
-      'https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1400&q=80',
-      'https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=1400&q=80',
-      'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1400&q=80',
+      '/images/projects/cabildo336I.webp',
+      '/images/projects/cabildo336I-1.webp',
+      '/images/projects/cabildo336I-2.webp',
+      '/images/projects/cabildo336I-3.webp',
+      '/images/projects/cabildo336I-4.webp',
+      '/images/projects/cabildo336I-5.webp',
     ],
   },
   {
@@ -98,12 +106,16 @@ export const projects: Project[] = [
     location: 'Buenos Aires, CABA',
     description:
       'Desarrollo de inversión de alta rentabilidad. Unidades compactas y eficientes con terminaciones premium para el mercado de alquiler temporario.',
-    coverImage:
-      'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=900&q=80',
+    coverImage: '/images/projects/ame2900-inv.webp',
     images: [
-      'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1400&q=80',
-      'https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=1400&q=80',
-      'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1400&q=80',
+      '/images/projects/ame2900-inv.webp',
+      '/images/projects/ame2900-inv-1.webp',
+      '/images/projects/ame2900-inv-2.webp',
+      '/images/projects/ame2900-inv-3.webp',
+      '/images/projects/ame2900-inv-4.webp',
+      '/images/projects/ame2900-inv-5.webp',
+      '/images/projects/ame2900-inv-6.webp',
+      '/images/projects/ame2900-inv-7.webp',
     ],
   },
   {
@@ -114,12 +126,17 @@ export const projects: Project[] = [
     location: 'Buenos Aires, CABA',
     description:
       'Casa de autor en tres niveles. Fachada racionalista con juego de voladizos, cubierta verde y doble altura en living.',
-    coverImage:
-      'https://images.unsplash.com/photo-1523217582562-09d0def993a6?w=900&q=80',
+    coverImage: '/images/projects/ambrosetti-42.webp',
     images: [
-      'https://images.unsplash.com/photo-1523217582562-09d0def993a6?w=1400&q=80',
-      'https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=1400&q=80',
-      'https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=1400&q=80',
+      '/images/projects/ambrosetti-42.webp',
+      '/images/projects/ambrosetti-42-1.webp',
+      '/images/projects/ambrosetti-42-2.webp',
+      '/images/projects/ambrosetti-42-3.webp',
+      '/images/projects/ambrosetti-42-4.webp',
+      '/images/projects/ambrosetti-42-5.webp',
+      '/images/projects/ambrosetti-42-6.webp',
+      '/images/projects/ambrosetti-42-7.webp',
+      '/images/projects/ambrosetti-42-8.webp',
     ],
   },
   {
@@ -130,12 +147,16 @@ export const projects: Project[] = [
     location: 'Buenos Aires, CABA',
     description:
       'Local comercial y oficinas en planta alta. Diseño flexible con divisiones removibles, iluminación técnica y materialidad industrial refinada.',
-    coverImage:
-      'https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=900&q=80',
+    coverImage: '/images/projects/460.webp',
     images: [
-      'https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=1400&q=80',
-      'https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1400&q=80',
-      'https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=1400&q=80',
+      '/images/projects/460.webp',
+      '/images/projects/460-1.webp',
+      '/images/projects/460-2.webp',
+      '/images/projects/460-3.webp',
+      '/images/projects/460-4.webp',
+      '/images/projects/460-6.webp',
+      '/images/projects/460-7.webp',
+      '/images/projects/460-8.webp',
     ],
   },
   {
@@ -146,12 +167,21 @@ export const projects: Project[] = [
     location: 'Buenos Aires, CABA',
     description:
       'Vivienda en lote angosto con patio central. La luz como protagonista: celosías, patios interiores y materiales naturales que regulan temperatura y privacidad.',
-    coverImage:
-      'https://images.unsplash.com/photo-1449844908441-8829872d2607?w=900&q=80',
+    coverImage: '/images/projects/caldas.webp',
     images: [
-      'https://images.unsplash.com/photo-1449844908441-8829872d2607?w=1400&q=80',
-      'https://images.unsplash.com/photo-1523217582562-09d0def993a6?w=1400&q=80',
-      'https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=1400&q=80',
+      '/images/projects/caldas.webp',
+      '/images/projects/caldas-1.webp',
+      '/images/projects/caldas-2.webp',
+      '/images/projects/caldas-3.webp',
+      '/images/projects/caldas-4.webp',
+      '/images/projects/caldas-5.webp',
+      '/images/projects/caldas-6.webp',
+      '/images/projects/caldas-7.webp',
+      '/images/projects/caldas-8.webp',
+      '/images/projects/caldas-9.webp',
+      '/images/projects/caldas-10.webp',
+      '/images/projects/caldas-11.webp',
+      '/images/projects/caldas-12.webp',
     ],
   },
 ];
