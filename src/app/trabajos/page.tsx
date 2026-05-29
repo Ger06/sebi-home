@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import PortfolioGrid from "@/components/sections/PortfolioGrid";
+import SectionTitle from "@/components/ui/SectionTitle";
 
 export const metadata: Metadata = {
   title: "Trabajos realizados",
@@ -9,8 +10,13 @@ export const metadata: Metadata = {
 
 export default function TrabajosPage() {
   return (
-    <div className="pt-20 md:pt-24">
+    <>
+      <section className="pt-32 md:pt-40 pb-10 md:pb-14 bg-foreground">
+        <div className="max-w-7xl mx-auto px-6 md:px-8 lg:px-12">
+          <SectionTitle label="Portafolio" title="Trabajos" light />
+        </div>
+      </section>
       <PortfolioGrid />
-    </div>
+    </>
   );
 }

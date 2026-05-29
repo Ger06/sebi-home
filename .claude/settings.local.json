@@ -1,7 +1,8 @@
 {
   "permissions": {
     "allow": [
-      "WebFetch(domain:www.ueharaarquitectura.com.ar)"
+      "WebFetch(domain:www.ueharaarquitectura.com.ar)",
+      "WebFetch(domain:wovemade.com)"
     ]
   }
 }

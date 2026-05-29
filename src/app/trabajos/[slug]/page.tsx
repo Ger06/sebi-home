@@ -30,7 +30,7 @@ export default async function ProjectPage({ params }: Props) {
   if (!project) notFound();
 
   return (
-    <div className="pt-20 md:pt-24 pb-20">
+    <div className="pb-20">
       {/* Hero image */}
       <div className="relative w-full aspect-[16/7] bg-border-color overflow-hidden">
         <Image

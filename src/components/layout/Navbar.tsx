@@ -16,7 +16,9 @@ const navLinks = [
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
+  const [hovered, setHovered] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
+  const solid = scrolled || hovered;
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 20);
@@ -27,10 +29,12 @@ export default function Navbar() {
   return (
     <>
       <header
+        onMouseEnter={() => setHovered(true)}
+        onMouseLeave={() => setHovered(false)}
         className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
-          scrolled
+          solid
             ? "bg-white/90 backdrop-blur-md border-b border-border-color shadow-sm"
-            : "bg-transparent"
+            : "[background:linear-gradient(to_bottom,rgba(0,0,0,0.35),transparent)]"
         }`}
       >
         <div className="max-w-7xl mx-auto px-6 md:px-8 lg:px-12 h-18 md:h-24 flex items-center justify-between">
@@ -40,7 +44,7 @@ export default function Navbar() {
               alt="Uehara Arquitectura"
               width={160}
               height={56}
-              className={`h-12 md:h-14 w-auto object-contain transition-all duration-300 ${scrolled ? "" : "brightness-0 invert"}`}
+              className={`h-12 md:h-14 w-auto object-contain transition-all duration-300 ${solid ? "" : "brightness-0 invert"}`}
               priority
             />
           </Link>
@@ -52,7 +56,7 @@ export default function Navbar() {
                 key={link.href}
                 href={link.href}
                 className={`text-sm uppercase tracking-[0.12em] transition-colors duration-300 hover:text-accent ${
-                  scrolled ? "text-foreground" : "text-white/90"
+                  solid ? "text-foreground" : "text-white/90"
                 }`}
               >
                 {link.label}
@@ -67,14 +71,14 @@ export default function Navbar() {
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Instagram"
-              className={`transition-colors duration-300 hover:text-accent ${scrolled ? "text-muted" : "text-white/70"}`}
+              className={`transition-colors duration-300 hover:text-accent ${solid ? "text-muted" : "text-white/70"}`}
             >
               <InstagramIcon size={18} />
             </a>
             <a
               href="mailto:info@ueharaarquitectura.com.ar"
               aria-label="Email"
-              className={`transition-colors duration-300 hover:text-accent ${scrolled ? "text-muted" : "text-white/70"}`}
+              className={`transition-colors duration-300 hover:text-accent ${solid ? "text-muted" : "text-white/70"}`}
             >
               <Mail size={18} />
             </a>
@@ -82,7 +86,7 @@ export default function Navbar() {
 
           {/* Mobile hamburger */}
           <button
-            className={`md:hidden p-2 transition-colors hover:text-accent ${scrolled ? "text-foreground" : "text-white"}`}
+            className={`md:hidden p-2 transition-colors hover:text-accent ${solid ? "text-foreground" : "text-white"}`}
             onClick={() => setMenuOpen(!menuOpen)}
             aria-label="Menú"
           >

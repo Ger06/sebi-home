@@ -28,9 +28,9 @@ const iconMap: Record<string, React.ElementType> = {
 
 export default function ServiciosPage() {
   return (
-    <div className="pt-20 md:pt-24">
+    <div>
       {/* Header */}
-      <section className="py-16 md:py-24 bg-foreground">
+      <section className="pt-32 md:pt-40 pb-16 md:pb-24 bg-foreground">
         <div className="max-w-7xl mx-auto px-6 md:px-8 lg:px-12">
           <SectionTitle
             label="Servicios"
