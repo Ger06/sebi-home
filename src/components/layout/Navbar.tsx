@@ -44,7 +44,7 @@ export default function Navbar() {
               alt="Uehara Arquitectura"
               width={160}
               height={56}
-              className={`h-12 md:h-14 w-auto object-contain transition-all duration-300 ${solid ? "" : "brightness-0 invert"}`}
+              className={`h-12 md:h-14 w-auto object-contain transition-all duration-300 ${solid ? "brightness-0" : ""}`}
               priority
             />
           </Link>
