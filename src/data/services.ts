@@ -5,11 +5,6 @@ export interface MainService {
   icon: string;
 }
 
-export interface AdvisoryService {
-  id: string;
-  title: string;
-  description: string;
-}
 
 export const mainServices: MainService[] = [
   {
@@ -49,41 +44,3 @@ export const mainServices: MainService[] = [
   },
 ];
 
-export const advisoryServices: AdvisoryService[] = [
-  {
-    id: 'visita',
-    title: 'Visita de Asesoría Profesional',
-    description:
-      'Evaluación in situ de su espacio. Recomendaciones sobre diseño, distribución, materiales, colores e iluminación con estimaciones de costo orientativas.',
-  },
-  {
-    id: 'precompra',
-    title: 'Asesoría Precompra',
-    description:
-      'Análisis técnico y estructural de propiedades antes de concretar la compra. Informe detallado con observaciones, potencial de reforma y estimación de inversión.',
-  },
-  {
-    id: 'computo',
-    title: 'Cómputo, Desarrollo y Costeo',
-    description:
-      'Presupuesto integral que abarca materiales, traslado, colocación, mano de obra y detalles finales. Herramienta clave para planificar y financiar su proyecto.',
-  },
-  {
-    id: 'estructural',
-    title: 'Asesoría Estructural',
-    description:
-      'Diagnóstico de patologías edilicias: grietas, fisuras, asentamientos y desprendimientos. Determinación de causas y plan de reparación con respaldo técnico.',
-  },
-  {
-    id: 'legal',
-    title: 'Asesoría Legal y Linderal',
-    description:
-      'Resolución de conflictos sobre medianeras, servidumbres, humedades y derechos de copropiedad. Acompañamiento técnico en procesos administrativos y judiciales.',
-  },
-  {
-    id: 'humedad',
-    title: 'Asesoría por Humedad',
-    description:
-      'Diagnóstico personalizado de problemas de humedad ascendente, filtraciones y condensación. Informe técnico con soluciones eficientes y presupuesto de obra.',
-  },
-];

@@ -8,7 +8,7 @@ import {
   Lightbulb,
   ArrowRight,
 } from "lucide-react";
-import { mainServices, advisoryServices } from "@/data/services";
+import { mainServices } from "@/data/services";
 import SectionTitle from "@/components/ui/SectionTitle";
 import AnimatedSection from "@/components/ui/AnimatedSection";
 
@@ -81,45 +81,7 @@ export default function ServiciosPage() {
         </div>
       </section>
 
-      {/* Advisory services */}
-      <section className="py-20 md:py-28 bg-off-white">
-        <div className="max-w-7xl mx-auto px-6 md:px-8 lg:px-12">
-          <div className="mb-12">
-            <SectionTitle
-              label="Asesoramiento"
-              title="Servicios de asesoría"
-              subtitle="Consultoría profesional para tomar mejores decisiones en cada etapa."
-            />
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-px bg-border-color">
-            {advisoryServices.map((service, i) => (
-              <AnimatedSection
-                key={service.id}
-                delay={i * 0.07}
-                className="bg-off-white p-8 flex flex-col gap-4"
-              >
-                <div className="flex items-start justify-between gap-4">
-                  <h3 className="font-display text-xl font-light text-foreground">
-                    {service.title}
-                  </h3>
-                  <span className="text-xs text-muted shrink-0 mt-1">
-                    0{i + 1}
-                  </span>
-                </div>
-                <p className="text-sm text-muted leading-relaxed">
-                  {service.description}
-                </p>
-                <Link
-                  href="/#contacto"
-                  className="inline-flex items-center gap-2 text-xs uppercase tracking-[0.12em] text-foreground hover:text-accent transition-colors duration-300 mt-2"
-                >
-                  Contáctanos <ArrowRight size={14} />
-                </Link>
-              </AnimatedSection>
-            ))}
-          </div>
-        </div>
-      </section>
+
 
       {/* CTA */}
       <section className="py-20 bg-accent">
