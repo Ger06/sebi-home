@@ -9,60 +9,60 @@ export const processSteps: ProcessStep[] = [
     number: '01',
     title: 'Primer contacto',
     description:
-      'Nos comunicamos para conocer su proyecto, necesidades y expectativas. Una primera charla sin compromiso que sienta las bases del trabajo conjunto.',
+      'Nos comunicamos para conocernos y entender su proyecto, necesidades y expectativas.',
   },
   {
     number: '02',
-    title: 'Visita al terreno o propiedad',
+    title: 'Visita al espacio',
     description:
-      'Relevamos el espacio en persona: medidas, orientación, entorno, condicionantes y potencial constructivo del lote o unidad existente.',
+      'Visitamos el espacio, conversamos sobre sus inquietudes y brindamos una opinión basada en nuestra experiencia profesional.',
   },
   {
     number: '03',
-    title: 'Diagnóstico y propuesta',
+    title: 'Presupuesto de honorarios',
     description:
-      'Elaboramos un diagnóstico técnico y presentamos una propuesta conceptual con alternativas de diseño, organización de ambientes y primeras referencias de materialidad.',
+      'Elaboramos un presupuesto de honorarios profesionales para iniciar el proceso de desarrollo del proyecto.',
   },
   {
     number: '04',
-    title: 'Anteproyecto',
+    title: 'Inicio del proyecto',
     description:
-      'Desarrollamos plantas, cortes y vistas del proyecto con una estimación de superficie y costo de obra. El cliente aprueba la dirección antes de avanzar.',
+      'Aceptado el presupuesto, iniciamos el proceso de proyecto con plantas, cortes y vistas preliminares.',
   },
   {
     number: '05',
-    title: 'Proyecto ejecutivo',
+    title: 'Diseño colaborativo',
     description:
-      'Documentación técnica completa: planos de arquitectura, estructura, instalaciones y memorias descriptivas necesarias para tramitar permisos y ejecutar la obra.',
+      'Creamos junto a usted un proyecto que reúna sus deseos, inquietudes y propuestas con nivel profesional.',
   },
   {
     number: '06',
-    title: 'Gestión de permisos',
+    title: 'Proyecto ejecutivo',
     description:
-      'Tramitamos la documentación ante el Gobierno de la Ciudad o municipio correspondiente. Acompañamos cada paso del proceso administrativo.',
+      'El proyecto detallado minuciosamente nos permite llegar a un presupuesto de obra preciso.',
   },
   {
     number: '07',
-    title: 'Licitación y contratación',
+    title: 'Trámites y licencias',
     description:
-      'Solicitamos presupuestos a empresas constructoras seleccionadas, comparamos ofertas y asesoramos al cliente en la elección del contratista más conveniente.',
+      'Lo ayudamos con los trámites de licencia de obra ante el organismo municipal correspondiente.',
   },
   {
     number: '08',
-    title: 'Inicio de obra',
+    title: 'Selección de materiales',
     description:
-      'Coordinamos el inicio de los trabajos, definimos el cronograma con el constructor y establecemos los canales de comunicación para el seguimiento semanal.',
+      'Seleccionamos los materiales junto a usted y comenzamos la obra con el equipo de construcción.',
   },
   {
     number: '09',
     title: 'Dirección de obra',
     description:
-      'Supervisamos el avance con visitas periódicas a la obra. Controlamos calidad de ejecución, materiales y cumplimiento del proyecto, resolviendo imprevistos con agilidad.',
+      'Visitamos semanalmente la obra junto a usted para supervisar el avance y resolver imprevistos.',
   },
   {
     number: '10',
     title: 'Entrega y post-obra',
     description:
-      'Verificamos el cierre de todos los ítems y entregamos la obra terminada en el plazo indicado. Brindamos acompañamiento post-entrega para garantizar su satisfacción.',
+      'Entregamos la obra finalizada en el plazo indicado y brindamos acompañamiento post-entrega.',
   },
 ];

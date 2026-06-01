@@ -16,37 +16,17 @@ export default function AboutSection() {
             />
             <AnimatedSection delay={0.2} className="space-y-4">
               <p className="text-base text-muted leading-relaxed">
-                Trabajamos con una filosofía de diseño moderno y minimalista,
-                donde cada proyecto responde a las necesidades específicas del
-                cliente y al contexto de su entorno. Creemos que la arquitectura
-                de calidad transforma la vida cotidiana.
+                En Uehara Arquitectura, cada proyecto residencial es una oportunidad para transformar y enriquecer la vida de nuestros clientes. Con un enfoque moderno y minimalista, creamos espacios que reflejan la personalidad y los deseos de quienes los habitan.
               </p>
               <p className="text-base text-muted leading-relaxed">
-                Nuestro equipo acompaña cada etapa del proceso: desde el primer
-                boceto hasta la entrega de la obra terminada. La transparencia,
-                el compromiso con los plazos y la atención al detalle son
-                nuestros valores de trabajo.
+                Nos dedicamos a entender a fondo las necesidades de nuestros clientes, acompañándolos en cada etapa del proceso, desde la concepción hasta la entrega final. Nuestro compromiso es diseñar espacios funcionales, estéticamente agradables y significativos.
+                Confía en Uehara Arquitectura para hacer de tu hogar un lugar único y especial.
+              </p>
+               <p className="text-base text-muted leading-relaxed">
+                Confía en Uehara Arquitectura para hacer de tu hogar un lugar único y especial.
               </p>
             </AnimatedSection>
 
-            <AnimatedSection delay={0.3}>
-              <div className="grid grid-cols-3 gap-8 pt-4 border-t border-border-color">
-                {[
-                  { value: "+50", label: "Proyectos" },
-                  { value: "+8", label: "Años de experiencia" },
-                  { value: "100%", label: "Satisfacción" },
-                ].map((stat) => (
-                  <div key={stat.label} className="flex flex-col gap-1">
-                    <span className="font-display text-3xl font-light text-foreground">
-                      {stat.value}
-                    </span>
-                    <span className="text-xs text-muted uppercase tracking-[0.12em]">
-                      {stat.label}
-                    </span>
-                  </div>
-                ))}
-              </div>
-            </AnimatedSection>
           </div>
 
           {/* Image */}
